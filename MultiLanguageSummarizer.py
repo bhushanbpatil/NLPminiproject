@@ -1,5 +1,6 @@
+#-*- coding: utf-8 -*-
 from gensim.summarization import summarize
-f = open("myfile.txt", "w")
+#f = open("myfile.txt", "w")
 
 
 japanese_text = """
@@ -119,5 +120,5 @@ print(hindi_summary)
 print("====="*20)
 
 
-f.write(hindi_summary)
-f.close()
+#f.write(hindi_summary)
+#f.close()
